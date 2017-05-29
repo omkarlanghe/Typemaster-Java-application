@@ -248,29 +248,7 @@ public class Window extends javax.swing.JFrame {
         startTime = System.currentTimeMillis();
         jEdittext2.setEnabled(true);        
         jEdittext2.requestFocus();
-        
-        /*Timer t = new Timer(1000, new ActionListener() 
-        {
-            @Override
-            public void actionPerformed(ActionEvent e) 
-            {
-                count++;
-                number.setText(count + "");
-                if(count==60000/1000)
-                {
-                    
-                    JOptionPane.showMessageDialog(jEdittext2,"TimeUp!! Please hit ok to show your result");
-                    String stats = "Correct Letters: "+(checkPosition+1) + " Time Taken: "+(60000/1000);
-                    jLabel1.setText(stats);
-                    
-                      
-                }
-                //endTime = System.currentTimeMillis();
-                //jEdittext2.setEnabled(false);
-            }
-        });
-        t.start();*/
-        
+                
     }
     private void endTest(){
         endTime = System.currentTimeMillis();
